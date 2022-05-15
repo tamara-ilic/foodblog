@@ -2,6 +2,7 @@
 title: Hello World
 date: "2015-05-01T22:12:03.284Z"
 description: "Hello World"
+cover_image: "https://unsplash.com/photos/_-b88sATOe0"
 ---
 
 This is my first post on my new fake blog! How exciting!

@@ -99,6 +99,15 @@ module.exports = {
                     frontmatter {
                       title
                       date
+                      cover_image {
+                        childImageSharp {
+                          gatsbyImageData(
+                            width: 200
+                            placeholder: BLURRED
+                            formats: [AUTO, WEBP, AVIF]
+                          )
+                        }
+                      }
                     }
                   }
                 }
